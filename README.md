@@ -27,16 +27,17 @@ HTML5
 CSS3
 JavaScript (Vanilla JS)
 
-## 📷 Preview(Screen Shots)
+## 📷 Preview
 
+### Gallery View 1
+![Gallery 1](assets/gallery1.png)
 
-![Gallery 1](gallery1.png)
+### Gallery View 2
+![Gallery 2](assets/gallery2.png)
 
+### Gallery View 3
+![Gallery 3](assets/gallery3.png)
 
-![Gallery 2](gallery2.png)
-
-
-![Gallery 3](gallery3.png)
 
 
 

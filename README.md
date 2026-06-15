@@ -1,41 +1,41 @@
-# ⚡ CodeAlpha Calculator
+# ⚡ CodeAlpha Image Gallery
 
-A modern, minimal, and responsive calculator web application built using **HTML, CSS, and JavaScript** as part of the CodeAlpha Frontend Development Internship.
+A modern, responsive image gallery web application built using **HTML, CSS, and JavaScript** as part of the CodeAlpha Frontend Development Internship.
 
 ---
 
 ## 📌 Project Overview
 
-This project is a simple yet visually clean calculator that performs basic arithmetic operations.  
-It also includes keyboard support and a modern dark UI for better user experience.
+This project showcases a clean and responsive image gallery with a modern layout and smooth interactions.
 
 ---
 
 ## ✨ Features
 
-- Basic arithmetic operations (+, −, ×, ÷)
-- Clean and minimal dark UI design
-- Responsive layout for different screen sizes
-- Keyboard support:
-  - Numbers (0–9)
-  - Operators (+ - * /)
-  - Enter = Calculate
-  - Backspace = Delete
-  - Escape = Clear
-- Interactive button hover effects
-- Error handling for invalid inputs
+- Responsive image grid layout  
+- Lightbox image preview  
+- Keyboard navigation support  
+- Hover zoom effects  
+- Clean UI design  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
+- HTML5  
+- CSS3  
 - JavaScript (Vanilla JS)
 
 ---
 
 ## 📷 Preview
 
-![Calculator Screenshot](calculator.png)
+![Gallery 1](gallery1.png)  
+![Gallery 2](gallery2.png)  
+![Gallery 3](gallery3.png)
 
+---
+
+## 👨‍💻 Developer
+
+Samir Pratap Singh Verma

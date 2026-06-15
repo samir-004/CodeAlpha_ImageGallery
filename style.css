@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #888;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links li {
+    color: #aaa;
+    cursor: pointer;
+}
+
+.nav-links li:hover {
+    color: #fff;
+}
+
+.nav-right button {
+    background: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+
+/* HERO */
+.hero {
+    padding: 140px 40px 20px;
+}
+
+.hero h1 {
+    font-size: 64px;
+}
+
+.hero p {
+    color: #555;
+}
+
+/* FILTERS */
+.filters {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filters button {
+    margin: 5px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background: #eee;
+    cursor: pointer;
+}
+
+/* ✅ TRUE MASONRY (FIXED EMPTY SPACE ISSUE) */
+.gallery {
+    column-count: 4;
+    column-gap: 15px;
+    padding: 40px;
+}
+
+.item {
+    break-inside: avoid;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.item img {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.item img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.05);
+}
+
+/* LIGHTBOX */
+#lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.92);
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 85%;
+}
+
+.nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.left { left: 20px; }
+.right { right: 20px; }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .gallery {
+        column-count: 2;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .gallery {
+        column-count: 1;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+}
